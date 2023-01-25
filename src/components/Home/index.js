@@ -18,10 +18,6 @@ const Home =() => {
             </div>
         </div>
     )
-
-
-
-
 }
 
 
