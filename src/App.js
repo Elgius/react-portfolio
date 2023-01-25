@@ -17,3 +17,6 @@ function App() {
 }
 
 export default App;
+
+
+/*Alpha test version 1, not uploadable yet*/
