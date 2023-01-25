@@ -3,18 +3,18 @@ import Sidebar from '../sidebar';
 import './index.scss';
 
 const Layout = () => {
-    return(
+    return (
         <div className="App">
             <Sidebar />
-            <div classroom = 'page'>
-                <span classroom = 'tags top-tags'>&lit;body&gt;</span>
+            <div className= 'page'>
+                <span className= 'tags top-tags'>&lt;body&gt;</span>
 
                 <Outlet />
 
-                <span classroom = 'tags bottom-tags'>
-                    &lit;/body&gt;
+                <span className= 'tags bottom-tags'>
+                    &lt;/body&gt;
                     <br />
-                    <span classroom = 'bottom-tag-html'></span>
+                    <span className= 'bottom-tag-html'>&lt;/html&gt;</span>
                 </span>
             </div>
         </div>
