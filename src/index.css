@@ -9,7 +9,7 @@ html{
 
 body {
   margin: 0;
-  font-family: 300, 11px/1.4  'Times New Roman', Times, serif, sans-serif; 
+  font: 300, 11px/1.4  'Times New Roman', Times, serif, sans-serif; 
   color: #444;
   background: #022c43;
   overflow: hidden;
